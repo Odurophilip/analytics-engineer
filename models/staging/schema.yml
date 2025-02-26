@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: bigquery_source
+    database: esoteric-portal-451713-m4
+    schema: phil  
+    tables:
+      - name: order_tracker
+        description: "Raw order tracking data from BigQuery"
+
+models:
+  - name: stg_order_tracker
+    description: "Staged version of order_tracker"

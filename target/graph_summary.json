@@ -1,0 +1,1 @@
+{"_invocation_id": "f22b5e28-8fc6-449c-9ec5-b206a4ff03d8", "linked": {"0": {"name": "source.my_dbt_project.bigquery_source.order_tracker", "type": "source", "succ": [1]}, "1": {"name": "model.my_dbt_project.stg_order_tracker", "type": "model"}}}
